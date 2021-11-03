@@ -1,0 +1,23 @@
+header {
+    background-color:#F6D7A7 ;
+    text-align: center;
+}
+nav{
+    background-color: #F6EABE  ;
+}
+section{
+    background-color: #C8E3D4 ;
+    grid-column: 1/4 ;
+    text-align: center;
+}
+aside{
+    background-color:#87AAAA  ;
+    grid-column: 4/5 ;
+}
+footer{
+    background-color: #F6D7A7 ;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
